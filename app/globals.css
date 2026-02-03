@@ -24,3 +24,98 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.header {
+  text-align: center;
+    background: #05876a;
+    padding: 20px;
+    color: #fff;
+    font-size: 26px;
+}
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 26px;
+}
+tr{
+  border-bottom: 1px solid #ddd;
+}
+td{
+  padding: 10px;
+}
+.add_btn{
+  background: rgb(3, 135, 106);
+  color: #fff;
+  padding: 11px 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.delete_btn{
+  background: #d30000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.update_btn{
+  background: rgb(3, 135, 106);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.edit_btn{
+  color: #fff;
+  background: #ab7e02;
+  border-radius: 5px;
+  padding: 11px 10px;
+  margin-left: 10px;
+}
+.newcontainer{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+
+}
+.productbox{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px 0;
+    background: #ededed;
+    border-radius: 16px;
+}
+.productbox img {
+  display: block;
+  margin: 0 auto;
+}
+
+.logout_btn{
+  background: #fff;
+    font-size: 13px;
+    color: #05876a;
+    padding: 2px 6px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu{
+  display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.menu a{
+  font-size: 16px;
+}
+.username {
+  font-size: 18px;
+  font-style: italic;
+  color: #fdff00;
+  margin-right: 10px;
+}
+.welcome{
+  font-size: 18px;
+  color: #fff;
+  margin-right: 10px;
+}
