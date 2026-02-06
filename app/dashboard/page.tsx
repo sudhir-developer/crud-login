@@ -22,7 +22,6 @@ const data = await res.json();
     <div style={{padding:'20px'}}>
     <ProductList products={data.products} />
     <hr/>
-    <hr/>
     </div>
     <UserComponent/>
     </ProtectedRoute>
